@@ -16,13 +16,11 @@ namespace Pong.Entities
             position = initLocation;
         }
 
-        public void Move() {}
-
         public void Update(GameTime gameTime) {}
 
         public void Draw(GameTime gameTime)
         {
-            _spriteBatch.Draw(_texture, position, Color.Black);
+            _spriteBatch.Draw(_texture, position, Color.White);
         }
 
     }
